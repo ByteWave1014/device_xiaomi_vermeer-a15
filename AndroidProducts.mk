@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelstar_vermeer.mk
+    $(LOCAL_DIR)/aosp_vermeer.mk
