@@ -1,5 +1,5 @@
 # Vendor  
-git clone --depth=1 https://github.com/Lunark-Projects/vendor_xiaomi.git vendor/xiaomi 
+git clone --depth=1 https://github.com/Lunark-Projects/vendor_xiaomi.git -b 15 vendor/xiaomi 
 
 # Kernel
 rm -rf device/xiaomi/vermeer-kernel 
@@ -10,10 +10,10 @@ git clone https://github.com/Lunark-Projects/proprietary_vendor_xiaomi_camera.gi
 
 # Common Tree 
 rm -rf device/xiaomi/sm8550-common 
-git clone --depth=1 https://github.com/pixelstar-devices/device_xiaomi_sm8550-common-vermeer.git device/xiaomi/sm8550-common 
+git clone --depth=1 https://github.com/ByteWave1014/device_xiaomi_sm8550-common.git device/xiaomi/sm8550-common 
 
 # Hardware 
-git clone --depth=1 https://github.com/Lunark-Projects/hardware_xiaomi.git hardware/xiaomi 
+git clone --depth=1 https://github.com/crdroidandroid/android_hardware_xiaomi.git hardware/xiaomi 
 
 # Sepolicy 
 git clone --depth=1 https://github.com/Lunark-Projects/android_device_xiaomi_sepolicy.git device/xiaomi/sepolicy 
